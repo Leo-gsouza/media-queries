@@ -3,5 +3,5 @@
 /*Estilo Screen e orietation portrait*/
 
 body{
-    background: url('../../jpeg/cev-portrait.jpg');
+    background-image: url('../../jpeg/cev-portrait.jpg');
 }

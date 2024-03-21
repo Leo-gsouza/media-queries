@@ -3,5 +3,6 @@
 /*Estilo Screen e orietation landscape*/
 
 body{
-    background: url('../../jpeg/cev-landscape.jpg');
+    background-image: url('../../jpeg/cev-landscape.jpg');
+    background-position: left bottom;
 }
