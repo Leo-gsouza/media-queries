@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quiery 3</title>
+    <style>
+        /* Declarações Gerais*/
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+        }
+
+        h1 {
+            color: aliceblue;
+            text-shadow: 3px 3px 0px #1526a7;
+        }
+
+        p {
+            color: white;
+            font-size: 1em;
+        }
+
+        /*Declarações Retrato*/
+        @media screen and (orientation: portrait) {
+            body {
+                background: url('jpeg/cev-portrait.jpg') no-repeat center bottom ;
+                background-size: contain;
+            }
+        }
+
+        /*Declarações Paisagem*/
+        @media screen and (orientation: landscape) {
+            body {
+                background: url('jpeg/cev-landscape.jpg') no-repeat left bottom;
+                background-size: contain;  
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Estilos em uma unica declaração</h1>
+    <p>Criar o estilo geral, retrato e paisagem no proprio HTML usando a tag style com @media para os tipos e caracteristicas diferentes. Exemplo abaixo</p>
+    <p> Dentro da TAG style no HTML ou em um unico estilo CSS
+        
+        /*Declarações Retrato*/
+        @media screen and (orientation: portrait) {
+            body {
+                background: url('jpeg/cev-portrait.jpg') no-repeat center bottom ;
+                background-size: contain;
+            }
+        }
+
+        /*Declarações Paisagem*/
+        @media screen and (orientation: landscape) {
+            body {
+                background: url('jpeg/cev-landscape.jpg') no-repeat left bottom;
+                background-size: contain;  
+            }
+        }</p>
+   
+</body>
+
+</html>
