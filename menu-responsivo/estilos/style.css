@@ -19,7 +19,7 @@ menu{
     display: none;
 }
 
-span#burguer{
+i#burguer{
     display: block;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.719);
@@ -29,16 +29,16 @@ span#burguer{
     cursor: pointer;
 }
 
-span#burguer:hover{
+i#burguer:hover{
     background-color: white;
     color: black;
 }
 
-menu > ul {
+menu > ul > div {
     list-style-type: none;
 }
 
-menu > ul > li > a{
+menu > ul > div > li > a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -49,7 +49,7 @@ menu > ul > li > a{
 
 }
 
-menu > ul > li > a:hover{
+menu > ul > div > li > a:hover{
     background-color: burlywood;
     color: black;
 }
